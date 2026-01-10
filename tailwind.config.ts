@@ -13,7 +13,23 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        script: ['Great Vibes', 'cursive'],
+        body: ['Quicksand', 'sans-serif'],
+      },
       colors: {
+        rose: {
+          light: "hsl(var(--rose-light))",
+          DEFAULT: "hsl(var(--rose))",
+          dark: "hsl(var(--rose-dark))",
+        },
+        blush: "hsl(var(--blush))",
+        cream: "hsl(var(--cream))",
+        gold: {
+          light: "hsl(var(--gold-light))",
+          DEFAULT: "hsl(var(--gold))",
+        },
+        lavender: "hsl(var(--lavender))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
