@@ -12,7 +12,7 @@ const Index = () => {
       <FloatingHearts />
       <MusicPlayer />
       <main className="relative z-10">
-        <HeroSection name="My Love" />
+        <HeroSection name="Viona" />
         <LoveLetterSection />
         <MemoriesSection />
         <ReasonsSection />
