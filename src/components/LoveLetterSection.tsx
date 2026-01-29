@@ -18,37 +18,44 @@ const LoveLetterSection = () => {
           <Heart className="absolute bottom-4 left-4 w-6 h-6 text-primary/20 fill-primary/20" />
 
           <div className="space-y-6 text-lg text-foreground/80 leading-relaxed font-light">
-            <p className="text-2xl text-script text-foreground">My Dearest Love,</p>
-            
+            <p className="text-2xl text-script text-foreground">My Beloved,</p>
+
             <p>
-              On this special day, I want you to know just how much you mean to me. 
-              From the moment you came into my life, everything became more beautiful, 
-              more meaningful, and filled with so much joy.
+              Selamat ulang tahun, sayang. Aku masih ingat saat edutrip ke Malaysia, 
+              itulah pertama kali aku bertemu dan berbincang denganmu. Entah kenapa, 
+              sejak hari itu semuanya terasa sedikit berbeda.
             </p>
-            
+
             <p>
-              Your smile lights up my darkest days, your laughter is my favorite melody, 
-              and your love is the greatest gift I've ever received. Every day with you 
-              feels like a dream come true.
+              Dari obrolan sederhana, tawa kecil, hingga akhirnya tumbuh rasa yang tak 
+              pernah aku rencanakan. Hubungan kita pun semakin dekat seiring berjalannya waktu.
             </p>
-            
+
             <p>
-              I am so grateful for every moment we share, every adventure we take, 
-              and every quiet evening spent together. You make ordinary moments extraordinary 
-              just by being in them.
+              Waktu berjalan, kita belajar saling mengenal—kekurangan, kelebihan, ego, 
+              dan sabar. Ada hari-hari bahagia, ada juga saat lelah, tapi bersamamu aku 
+              belajar bahwa cinta bukan hanya tentang rasa, melainkan tentang bertahan 
+              dan tumbuh bersama.
             </p>
-            
+
             <p>
-              Happy Birthday, my love. May this year bring you endless happiness, 
-              beautiful surprises, and all the love your heart can hold. 
-              I promise to be by your side, cherishing you today and always.
+              Di hari istimewamu ini, aku tidak menjanjikan kesempurnaan. Aku hanya ingin 
+              terus ada, menemani langkahmu, mendukung mimpimu, dan berjalan di sampingmu 
+              pelan tapi pasti.
             </p>
+
+            <p>
+              Terima kasih sudah hadir dalam hidupku dan menjadi alasan aku tersenyum 
+              tanpa alasan. Semoga tahun ini membawa kebahagiaan, kesehatan, dan segala 
+              hal baik yang pantas kamu dapatkan.
+            </p>
+
 
             <div className="pt-6 text-right">
               <p className="text-2xl text-script text-foreground">Forever Yours,</p>
               <div className="flex items-center justify-end gap-2 mt-2">
                 <Heart className="w-5 h-5 text-primary fill-primary" />
-                <span className="text-primary font-medium">Your Love</span>
+                <span className="text-primary font-medium">Aii</span>
               </div>
             </div>
           </div>

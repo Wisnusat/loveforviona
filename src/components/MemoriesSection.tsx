@@ -2,20 +2,29 @@ import { Heart, Camera } from "lucide-react";
 
 const memories = [
   {
-    title: "Our First Date",
+    title: "Our First Meet",
     description: "The day my heart knew it found home",
+    imageSrc: "/foto5.jpeg",
   },
   {
-    title: "Adventures Together",
-    description: "Every journey is better with you",
+    title: "By Your Side",
+    description: "Finding comfort, laughter, and love in every moment we share",
+    imageSrc: "/foto2.jpeg",
   },
+  // {
+  //   title: "Quiet Moments",
+  //   description: "When it's just us and the world fades away",
+  //   imageSrc: "/foto3.jpeg",
+  // },
   {
-    title: "Quiet Moments",
-    description: "When it's just us and the world fades away",
+    title: "Forever & Always",
+    description: "A love that grows stronger with every moment",
+    imageSrc: "/foto4.jpeg",
   },
   {
     title: "Laughter & Joy",
     description: "You make every day brighter",
+    imageSrc: "/foto1.jpeg",
   },
 ];
 
@@ -38,13 +47,20 @@ const MemoriesSection = () => {
           {memories.map((memory, index) => (
             <div
               key={index}
-              className="group relative overflow-hidden rounded-3xl aspect-[4/3] bg-secondary shadow-card hover:shadow-glow transition-all duration-500"
+              className={`group relative overflow-hidden rounded-3xl aspect-[4/3] bg-secondary shadow-card hover:shadow-glow transition-all duration-500`}
             >
+              <img
+                src={memory.imageSrc}
+                alt={memory.title}
+                className="absolute inset-0 h-full w-full object-cover"
+                loading="lazy"
+              />
+
               {/* Placeholder gradient background */}
               <div 
                 className="absolute inset-0"
                 style={{
-                  background: `linear-gradient(${135 + index * 30}deg, hsl(350 70% ${85 - index * 5}%), hsl(${350 + index * 10} 60% ${90 - index * 3}%))`,
+                  background: `linear-gradient(${135 + index * 30}deg, hsl(350 70% ${85 - index * 5}% / 0.35), hsl(${350 + index * 10} 60% ${90 - index * 3}% / 0.35))`,
                 }}
               />
               
@@ -69,9 +85,9 @@ const MemoriesSection = () => {
           ))}
         </div>
 
-        <p className="text-center text-muted-foreground mt-8 italic">
+        {/* <p className="text-center text-muted-foreground mt-8 italic">
           Add your own photos to make it even more special ✨
-        </p>
+        </p> */}
       </div>
     </section>
   );

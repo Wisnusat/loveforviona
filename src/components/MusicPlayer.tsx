@@ -7,7 +7,7 @@ const MusicPlayer = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
 
   // Using a royalty-free romantic piano piece from a public source
-  const audioSrc = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3";
+  const audioSrc = "/backsound.mp3";
 
   useEffect(() => {
     const handleFirstInteraction = () => {
