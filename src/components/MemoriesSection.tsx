@@ -33,7 +33,7 @@ const MemoriesSection = () => {
     <section className="py-20 px-4 gradient-romantic">
       <div className="container mx-auto max-w-5xl">
         <div className="text-center mb-16 animate-fade-in-up">
-          <Camera className="w-8 h-8 text-accent mx-auto mb-4" />
+          {/* <Camera className="w-8 h-8 text-accent mx-auto mb-4" /> */}
           <h2 className="text-5xl md:text-6xl text-script text-foreground mb-4">
             Our Precious Memories
           </h2>

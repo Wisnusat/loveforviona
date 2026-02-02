@@ -18,7 +18,7 @@ const ReasonsSection = () => {
     <section className="py-20 px-4 bg-card">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-16 animate-fade-in-up">
-          <Star className="w-8 h-8 text-accent mx-auto mb-4" />
+          {/* <Star className="w-8 h-8 text-accent mx-auto mb-4" /> */}
           <h2 className="text-5xl md:text-6xl text-script text-foreground mb-4">
             10 Reasons I Love You
           </h2>

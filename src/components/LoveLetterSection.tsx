@@ -5,7 +5,7 @@ const LoveLetterSection = () => {
     <section className="py-20 px-4 gradient-romantic">
       <div className="container mx-auto max-w-3xl">
         <div className="text-center mb-12 animate-fade-in-up">
-          <Pen className="w-8 h-8 text-accent mx-auto mb-4" />
+          {/* <Pen className="w-8 h-8 text-accent mx-auto mb-4" /> */}
           <h2 className="text-5xl md:text-6xl text-script text-foreground mb-4">
             A Letter For You
           </h2>
